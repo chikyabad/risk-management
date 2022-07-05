@@ -1,0 +1,18 @@
+###
+POST http://localhost:4004/service/risk/Mitigations
+Content-Type: application/json
+
+{
+ 
+ "descr": "Ejemplo mitigation",
+ "owner": "Cristian",
+ "timeline": "Q4 2022"
+
+}
+
+###
+GET http://localhost:4004/service/risk/Risks
+
+###
+GET http://localhost:4004/service/risk/Mitigations
+
